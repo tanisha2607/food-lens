@@ -34,7 +34,7 @@ FOOD101_CLASSES = [
 
 def get_image():
     root = tk.Tk()
-    root.withdraw
+    root.withdraw()
 
     print("Opening file dialog window... Please pick an image.")
 
